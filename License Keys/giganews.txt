@@ -1,0 +1,22 @@
+Here is your Giganews login and default password as you have
+requested.  If you are still unable to access your Giganews account,
+please don't hesitate to reply to this e-mail.
+ 
+  Logon:    gn177432
+  Password: b3r1ngsw
+            b - lowercase b
+            3 - numeral three
+            r - lowercase r
+            1 - numeral one
+            n - lowercase n
+            g - lowercase g
+            s - lowercase s
+            w - lowercase w
+
+
+You may choose between our different news server addresses.  Depending
+on your Internet connection and route, you may see a difference in speed.
+All Giganews servers have access to the same articles.  Servers currently
+available are:
+
+    news.giganews.com

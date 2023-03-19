@@ -1,0 +1,14 @@
+ACT,Activities
+COF,Espresso log
+COK,Cooking
+DIA,Diary entry or thoughts
+EDU,Education and learning
+EVT,Major event
+HTH,Health
+INV,Investing
+KAR,Karlee
+NOT,General notes
+REV,Recurring event
+SOC,Social
+TRV,Travel
+WRK,Work-related

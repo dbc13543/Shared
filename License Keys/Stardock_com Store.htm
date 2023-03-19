@@ -1,0 +1,454 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta name="Description" /><meta name="Keywords" /><meta id="ctl00__MetaSDCInstall" name="SDCInstall" content="$odp$wb6$" /><title>
+	Stardock.com Store
+</title><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /><link rel="icon" type="image/x-icon" href="/favicon.ico" />
+   
+   <script type="text/javascript" src="/LocalContent.axd?http://scripts.stardock.com/Stardock.js"></script>
+   
+   <script type="text/javascript" src="/js/common.js"></script>
+   <script type="text/javascript" src="/js/controls.js"></script>
+
+   <script type="text/javascript" src="/js/store.js"></script>
+</head>
+<body>
+   <form name="aspnetForm" method="post" action="checkout.aspx?receipt" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTUzMzA5MDczMA9kFgJmD2QWBAIBD2QWAgICDxYEHgdjb250ZW50BQkkb2RwJHdiNiQeB1Zpc2libGVnZAIDD2QWCAIDDxYCHwFoZAINDxYCHwFoZAIPDxYEHgVjbGFzcwUmUHJvZ3Jlc3NfSW5kaWNhdG9yX0l0ZW1fQ29tcGxldGVkIEhhbmQeB29uY2xpY2sFHHdpbmRvdy5sb2NhdGlvbiA9ICcvYnJvd3NlJztkAhkPZBYKAgEPZBYCAgEPDxYCHwFoZGQCAw9kFgICBQ9kFgICEw8QZGQWAWZkAgUPZBYCAgUPZBYCAhMPEGRkFgFmZAIHD2QWBAINDxBkZBYBZmQCDg8QZGQWAWZkAg8PDxYCHwFnZBYsAgEPZBYEAgEPFgIeBFRleHQFF1ZUSE4yQ0U5REJEQy0wNzE0MDgxMDE4ZAIDDxYCHwQFFTcvMTQvMjAwOCAxMDoxODo0NyBBTWQCAw9kFgQCAQ8WAh8EBRU3LzE0LzIwMDggMTA6MTg6NDcgQU1kAgMPFgIfBAUXVlRITjJDRTlEQkRDLTA3MTQwODEwMThkAgUPFgIfBAUMRGF2aWQgIENoYXNlZAIHDxYCHwQFEmRjaGFzZUBob3RtYWlsLmNvbWQCCQ8WAh8EBRQyMDEwIFNpbHZlcmJlcnJ5IENyLmQCCw8WAh8EBRtNaXNzaXNzYXVnYSwgT250YXJpbyBMNUoxQzlkAg0PFgIfBAUCQ0FkAhEPZBYCAgMPFgIfBAUsRGVsaXZlcmVkIGFzIERvd25sb2FkLiAgTm8gc2hpcHBpbmcgYWRkcmVzcy5kAhMPFgIeC18hSXRlbUNvdW50AgIWBGYPZBYGAgEPDxYCHwQFEE9iamVjdERvY2sgUGx1cy1kZAIDDxYCHwQFBiQyMC4xMmQCBw8WAh8EBQExZAIBD2QWBgIBDw8WAh8EBQ9XaW5kb3dCbGluZHMgNi1kZAIDDxYCHwQFBiQyMC4xMmQCBw8WAh8EBQExZAIVDxYCHwFoZAIXD2QWBgIBDxYCHwQFBFZpc2FkAgMPFgIfBAUEMTU1N2QCBQ8WAh8EBQY4LzIwMTBkAhkPFgIfBGVkAhsPFgIfBAUGJDQwLjI0ZAIdDxYCHwQFBSQwLjAwZAIfDxYCHwQFBSQwLjAwZAIhDxYCHwQFBiQ0MC4yNGQCIw8WAh8EBQUkMC4wMGQCJQ8WAh8EBQYkNDAuMjRkAicPFgIfBAUFKENBRClkAikPFgIfAWcWAgIBDxYCHwQFCTcvMTQvMjAwOGQCKw8WAh8EBbYVVGhhbmsgeW91IGZvciB5b3VyIG9yZGVyIGZyb20gU3RhcmRvY2suICBUaGlzIGVtYWlsIGNvbnRhaW5zIHRoZSBzZXJpYWw8YnIgLz5udW1iZXJzIChyZWZlcnJlZCB0byBhcyBSZWdpc3RyYXRpb24gQ29kZXMpIGZvciB0aGUgcHJvZHVjdHMgeW91PGJyIC8+aGF2ZSBvcmRlcmVkIGFuZCBhIHJlY2VpcHQgb2YgcGF5bWVudCBpcyBhdHRhY2hlZC48YnIgLz48YnIgLz5JZiB5b3UgbmVlZCB0byBkb3dubG9hZCB0aGUgbGF0ZXN0IGVuaGFuY2VkIHZlcnNpb24gb3IgZ2V0IHlvdXIgc2VyaWFsPGJyIC8+bnVtYmVyIGluIHRoZSBmdXR1cmUsIHBsZWFzZSB2aXNpdCBodHRwOi8vd3d3LnN0YXJkb2NrLmNvbS9zdXBwb3J0Ly48YnIgLz48YnIgLz5DdXN0b21lciBOYW1lOiBEYXZpZCBDaGFzZTxiciAvPk9yZGVyIE51bWJlcjogVlRITjJDRTlEQkRDLTA3MTQwODEwMTg8YnIgLz48YnIgLz48YnIgLz5Qcm9kdWN0cyBPcmRlcmVkOiAgICAgICAgIDxiciAvPj0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tPTxiciAvPlByb2R1Y3QgTmFtZSAgOiBPYmplY3REb2NrIFBsdXM8YnIgLz5Vc2VyIE5hbWUgICAgIDogRGF2aWQgQ2hhc2U8YnIgLz5FbWFpbCAgICAgICAgIDogZGNoYXNlQGhvdG1haWwuY29tPGJyIC8+U2VyaWFsIE51bWJlciA6IDJBODA2NDVEMTQ2OTQxRDM5RTg5NUFEMTA5Qzk8YnIgLz5Eb3dubG9hZCAgICAgIDogPGEgaHJlZj0iaHR0cDovL2RsLnN0YXJkb2NrLmNvbS9hY3RpdmF0ZS9kbC5hc3B4P209MSZ2PTEmYTE9M0Q2RDI3MEEyMUFEOUFFOUYyQzZEMjBFIj4gaHR0cDovL2RsLnN0YXJkb2NrLmNvbS9hY3RpdmF0ZS9kbC5hc3B4P209MSZ2PTEmYTE9M0Q2RDI3MEEyMUFEOUFFOUYyQzZEMjBFIDwvYT48YnIgLz48YnIgLz5Qcm9kdWN0IE5hbWUgIDogV2luZG93QmxpbmRzIDY8YnIgLz5Vc2VyIE5hbWUgICAgIDogRGF2aWQgQ2hhc2U8YnIgLz5FbWFpbCAgICAgICAgIDogZGNoYXNlQGhvdG1haWwuY29tPGJyIC8+U2VyaWFsIE51bWJlciA6IEY0RTUyLTAxQzU1LUEwRjU1LUVCMTY1LTcxRTcwLTI2Q0NFPGJyIC8+RG93bmxvYWQgICAgICA6IDxhIGhyZWY9Imh0dHA6Ly9kbDQuc3RhcmRvY2suY29tL2Rvd25sb2FkLmFzcHg/ZDE9VDFqWnNRelVtVkpuOGQ2VVFEM2ZZbGxPTjdoSHh5WFRPelBjbm10WXAwd1JteGFnSXhEM1Z3JTNkJTNkIj4gaHR0cDovL2RsNC5zdGFyZG9jay5jb20vZG93bmxvYWQuYXNweD9kMT1UMWpac1F6VW1WSm44ZDZVUUQzZllsbE9ON2hIeHlYVE96UGNubXRZcDB3Um14YWdJeEQzVnclM2QlM2QgPC9hPjxiciAvPj0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tPTxiciAvPjxiciAvPjxiciAvPlBsZWFzZSBwcmludCBhIGhhcmQgY29weSBvZiB0aGlzIGluZm9ybWF0aW9uIGFuZCBzdG9yZSBpdCBpbiBhIHNhZmUgcGxhY2U8YnIgLz5hcyB5b3UgbWF5IG5lZWQgaXQgZm9yIGZ1dHVyZSBpbnN0YWxsYXRpb25zIGFuZCBvciB1cGdyYWRlcy48YnIgLz48YnIgLz5JZiB5b3UgaGF2ZSBhbnkgcHJvYmxlbXMgb3IgcXVlc3Rpb25zIHJlZ2FyZGluZyB0aGlzIHNhbGVzPGJyIC8+dHJhbnNhY3Rpb24sIHNpbXBseSBjb250YWN0IG91ciBzYWxlcyBzdGFmZiBhdCBzYWxlc0BzdGFyZG9jay5jb20uPGJyIC8+PGJyIC8+UmVndWxhciBwcm9kdWN0IHVwZGF0ZXMgYXMgd2VsbCBhcyBhZGRpdGlvbmFsIHByb2R1Y3RzIGNhbiBiZTxiciAvPmZvdW5kIG9uIG91ciB3ZWJzaXRlIGF0IGh0dHA6Ly93d3cuc3RhcmRvY2suY29tIC48YnIgLz48YnIgLz5JdCBpcyBzdHJvbmdseSByZWNvbW1lbmRlZCB0aGF0IHlvdSBtYWtlIGEgYmFja3VwIG9mIGFsbCBmaWxlcyA8YnIgLz5kb3dubG9hZGVkIGluIGNhc2UgeW91IG5lZWQgdG8gcmVpbnN0YWxsIHRoZSBzb2Z0d2FyZSBhdCBhIGxhdGVyPGJyIC8+ZGF0ZS4gIEJ5IG1ha2luZyBhIGJhY2t1cCBub3cgeW91IHdpbGwgY3V0IGRvd24gb24gdGhlIHN1cHBvcnQ8YnIgLz5idXJkZW4gb2Ygb3VyIHN0YWZmLCBhcyB3ZWxsIGFzIGVuc3VyaW5nIHlvdXIgcGVhY2Ugb2YgbWluZC48YnIgLz5UaGFuayB5b3UuPGJyIC8+PGJyIC8+QmUgc3VyZSB0byBjaGVjayBvdXQgb3VyIG90aGVyIHByb2R1Y3RzIGF0IGh0dHA6Ly93d3cuc3RhcmRvY2suY29tL29yZGVyLmFzcCAhPGJyIC8+PGJyIC8+SW1wb3J0YW50IENvbnRhY3QgSW5mb3JtYXRpb246PGJyIC8+PGJyIC8+ICBTZXJpYWwgbnVtYmVyIGxvb2t1cCBhbmQgbGF0ZXN0IGVuaGFuY2VkIHZlcnNpb246PGJyIC8+CWh0dHA6Ly93d3cuc3RhcmRvY2suY29tL3N1cHBvcnQvICA8YnIgLz4gPGJyIC8+ICBTYWxlcyBpbmZvcm1hdGlvbjo8YnIgLz4Jc2FsZXNAc3RhcmRvY2suY29tPGJyIC8+PGJyIC8+ICBUZWNobmljYWwgU3VwcG9ydCBpbmZvcm1hdGlvbjo8YnIgLz4JRW1haWw6IHN1cHBvcnRAc3RhcmRvY2suY29tPGJyIC8+CVdlYjogaHR0cDovL3d3dy5zdGFyZG9jay5jb20vc3VwcG9ydDxiciAvPjxiciAvPiAgU3RhcmRvY2sgTmV3cyBTZXJ2ZXI6PGJyIC8+CW5ld3M6Ly9uZXdzLnN0YXJkb2NrLmNvbTxiciAvPjxiciAvPiAgTWFpbGluZyBBZGRyZXNzOjxiciAvPglTdGFyZG9jayBTeXN0ZW1zLCBJbmMuPGJyIC8+CTE1MDkwIEJlY2sgUmQsIFN1aXRlIDMwMDxiciAvPglQbHltb3V0aCwgTWljaGlnYW4gNDgxNzA8YnIgLz4JVVNBZAItDxYCHwQFnQU8IS0tIEdvb2dsZSBDb2RlIGZvciBwdXJjaGFzZSBDb252ZXJzaW9uIFBhZ2UgLS0+DQo8c2NyaXB0IGxhbmd1YWdlPSJKYXZhU2NyaXB0IiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KPCEtLQ0KdmFyIGdvb2dsZV9jb252ZXJzaW9uX2lkID0gMTA3MjU4MjI0OTsNCnZhciBnb29nbGVfY29udmVyc2lvbl9sYW5ndWFnZSA9ICJlbl9VUyI7DQp2YXIgZ29vZ2xlX2NvbnZlcnNpb25fZm9ybWF0ID0gIjEiOw0KdmFyIGdvb2dsZV9jb252ZXJzaW9uX2NvbG9yID0gIkZGRkZGRiI7DQppZiAoNDAuMjQpIHsNCiAgdmFyIGdvb2dsZV9jb252ZXJzaW9uX3ZhbHVlID00MC4yNDsNCn0NCnZhciBnb29nbGVfY29udmVyc2lvbl9sYWJlbCA9ICJwdXJjaGFzZSI7DQovLy0tPg0KPC9zY3JpcHQ+DQo8c2NyaXB0IGxhbmd1YWdlPSJKYXZhU2NyaXB0IiBzcmM9Imh0dHBzOi8vd3d3Lmdvb2dsZWFkc2VydmljZXMuY29tL3BhZ2VhZC9jb252ZXJzaW9uLmpzIj4NCjwvc2NyaXB0Pg0KPG5vc2NyaXB0Pg0KDQo8aW1nIGhlaWdodD0xIHdpZHRoPTEgYm9yZGVyPTAgc3JjPSJodHRwczovL3d3dy5nb29nbGVhZHNlcnZpY2VzLmNvbS9wYWdlYWQvY29udmVyc2lvbi8xMDcyNTgyMjQ5L2ltcC5naWY/dmFsdWU9MTkuOTUmbGFiZWw9cHVyY2hhc2Umc2NyaXB0PTAiPg0KDQo8L25vc2NyaXB0Pg0KDQpkZKC62u+AKuoANF6mYP0KhL8nJt0Y" />
+</div>
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<script src="/WebResource.axd?d=t7XHX6DTdeOCiJnPy8pVig2&amp;t=633256245858412611" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+<!--
+theForm.action = 'https://store.stardock.com/checkout.aspx';var Store = new Sd.Store();Sd.Store.cartItemCount = 2;// -->
+</script>
+
+<script src="/ScriptResource.axd?d=i7EofngiViRzze80ZkiDo876i0sD9tC4ZrrPBzugboGA668jLezPROaJ-0BClWQcVUbdXsRJoTJYre2AeizK-GL9bk9YonmqWhfRXSfG8sA1&amp;t=633165638507338441" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=i7EofngiViRzze80ZkiDo876i0sD9tC4ZrrPBzugboGA668jLezPROaJ-0BClWQcVUbdXsRJoTJYre2AeizK-NEl_oWKfeGqUDyYA97YtQIzkkGfKA8WncxTfz-NHjy00&amp;t=633165638507338441" type="text/javascript"></script>
+      <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$_ScriptManager', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+
+      <script src="/ws/StoreSrv.asmx/jsdebug" type="text/javascript"></script>
+
+      
+
+      <script type="text/javascript">
+      try
+      {
+         document.write('<link rel="stylesheet" href="/css/SD_Store/style.css">');
+	      if(Sys.Browser.agent == Sys.Browser.InternetExplorer && Sys.Browser.version < 7) document.write('<link rel="stylesheet" href="/css/SD_Store/style_ie6.css">');
+	      if(Sys.Browser.agent == Sys.Browser.InternetExplorer && Sys.Browser.version >= 7) document.write('<link rel="stylesheet" href="/css/SD_Store/style_ie7.css">');
+	      if(Sys.Browser.agent == Sys.Browser.Opera) document.write('<link rel="stylesheet" href="/css/SD_Store/style_op.css">');
+	      if(Sys.Browser.agent == Sys.Browser.Firefox || Sd.Common.Browser.moz) document.write('<link rel="stylesheet" href="/css/SD_Store/style_mz.css">');
+      }
+      catch(e){ }
+      </script>
+      <div align="center" id="_StoreBody">
+         <div class="Header_Outter_Region" align="left">
+            <div class="Header_Region_Left">
+               <img src="/images/spacer.gif" class="Header_Logo" />
+            </div>
+            <div class="Header_Region_Right">
+               <div>
+                  <div class="Header_Region_Links" align="right">
+                     
+                     
+                     
+                     
+
+                     <img src="/images/spacer.gif" class="Icon_Checkout" border="0" align="absmiddle" />
+                     <a href="/checkout/" id="ctl00_A1" class="Header_Lnk">Checkout</a>
+                     &nbsp;&nbsp;|&nbsp;&nbsp;
+                     
+                                          
+                     <img src="/images/spacer.gif" class="Icon_Cart" border="0" align="absmiddle" />
+                     <a href="/cart" class="Header_Lnk">Cart</a>
+                     <!-- Only Show Me When User Is Logged In START -->                    
+                     
+                     <!-- Only Show Me When User Is Logged In END -->
+                  </div>
+                  <div>
+                     <img src="/images/spacer.gif" class="Progress_Indicator_Title" />
+                  </div>
+                  <div>
+                     <div class="Progress_Indicator_Item" style="width: 50px;">
+                        <div id="ctl00__ProgressShop" class="Progress_Indicator_Item_Completed Hand" onclick="window.location = '/browse';">
+                           Shop</div>
+                     </div>
+                     <div class="Progress_Indicator_Item" style="width: 90px;">
+                        <div id="ctl00__ProgressAddress" class="Progress_Indicator_Item_NotCompleted">
+                           Address Info</div>
+                     </div>
+                     <div class="Progress_Indicator_Item" style="width: 95px;">
+                        <div id="ctl00__ProgressPayment" class="Progress_Indicator_Item_NotCompleted">
+                           Payment Info</div>
+                     </div>
+                     <div class="Progress_Indicator_Item" style="width: 100px;">
+                        <div id="ctl00__ProgressReview" class="Progress_Indicator_Item_NotCompleted">
+                           Review Order</div>
+                     </div>
+                     <div class="Progress_Indicator_Item" style="width: 105px;">
+                        <div id="ctl00__ProgressComplete" class="Progress_Indicator_Item_NotCompleted">
+                           Order Complete</div>
+                     </div>
+                     <div class="Progress_Indicator_RightEdge">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="Body_Outter_Region" align="left">
+
+               
+   
+   
+   
+   
+   
+   
+   
+   
+
+<div class="Complete_TitleHeader">
+   <div class="Complete_TitleHeaderText">
+      Thank You For Your Order 
+      <div class="Complete_Warning">Please do not click the Back button on your browser to avoid duplicate orders. <a href="/browse">Click here to continue shopping.</a></div>
+   </div>
+</div>
+<div class="Complete_ReviewBoxRegion1">
+   <div class="Complete_ReviewBoxRegion2">
+      <div class="Complete_ReviewBoxRegion3">
+         
+            <div class="Complete_ReviewBoxText">
+               <b>Thank you for your order.</b> Your order has been accepted and is being processed.
+               Please print this page for your records. For questions regarding your order, please
+               contact <a href="mailto:sales@stardock.com">sales@stardock.com</a> and include your
+               <b>Order number</b> located below.
+            </div>
+            <div class="Complete_ReviewBoxRow">
+               <div class="Complete_ReviewBoxItem1">
+                  Your order number is:</div>
+               <div class="Complete_ReviewBoxItem2">
+                  VTHN2CE9DBDC-0714081018
+               </div>
+            </div>
+            
+            
+            <div class="Complete_ReviewBoxRow">
+               <div class="Complete_ReviewBoxItem1">
+                  Your order was submitted on:</div>
+               <div class="Complete_ReviewBoxItem2">
+                  7/14/2008 10:18:47 AM (GMT-5)
+               </div>
+            </div>
+            
+            
+
+               <div style="width:740px; text-align:right; font-weight:bold;">
+                  ** Scroll down for serial number information.
+               </div>
+
+         
+         
+                  
+      </div>
+   </div>
+</div>
+<div class="Complete_BodyRegion">
+   <div class="Complete_BodyLeft">
+      <div class="Complete_BillShipRegion">
+         <div class="Complete_BillShip_Billing">
+            <div class="Complete_BillShip_BillingTitle">
+               <div class="Complete_BillShip_BillingTitleText">Billing to:</div>
+            </div>
+            <div class="Complete_BillShip_BillingBody">
+               David  Chase
+               <br />
+               dchase@hotmail.com
+               <br />
+               2010 Silverberry Cr.
+               <br />
+               Mississauga, Ontario L5J1C9
+               <br />
+               CA
+               <br />
+                              
+            </div>
+         </div>
+         
+            <div class="Complete_BillShip_Shipping">
+               <div class="Complete_BillShip_ShippingTitle">
+                  <div class="Complete_BillShip_ShippingTitleText">Shipping To:</div>
+               </div>
+               <div class="Complete_BillShip_ShippingBody">
+                  Delivered as Download.  No shipping address.
+                  <br />
+                  
+                  <br />
+                  
+                  <br />
+                  
+                  <br />
+                  
+                  <br />
+                                    
+               </div>
+            </div>
+         
+      </div>
+      <div class="Complete_CartRegion">
+         <div class="Complete_CartTitle">
+            <div class="Complete_CartTitleText">Cart contents:</div>
+         </div>
+         <div class="Complete_CartListRegion">
+            <!-- REPEATER CART ITEM LIST START -->
+            
+                  <div class="Complete_CartListItem">
+                     <div>
+                        <a id="ctl00__Content__Receipt__OrderItems_ctl00__ItemTitle" class="Cart_Item_Title">ObjectDock Plus-</a>
+                     </div>
+                     <div class="Complete_CartListItemPrice">
+                        $20.12
+                        
+                     </div>
+                     <div class="Complete_CartListItemQty">
+                        Quantity:
+                        1
+                     </div>
+                  </div>
+               
+                  <div class="Complete_CartListItem">
+                     <div>
+                        <a id="ctl00__Content__Receipt__OrderItems_ctl01__ItemTitle" class="Cart_Item_Title">WindowBlinds 6-</a>
+                     </div>
+                     <div class="Complete_CartListItemPrice">
+                        $20.12
+                        
+                     </div>
+                     <div class="Complete_CartListItemQty">
+                        Quantity:
+                        1
+                     </div>
+                  </div>
+               
+            <!-- REPEATER CART ITEM LIST END -->
+        </div>
+      </div>
+   </div>
+   <div class="Complete_BodyRight">
+      <div class="Complete_PaymentRegion">
+         <div class="Complete_PaymentTitle">
+            <div class="Complete_PaymentTitleText">Payment method:</div>
+         </div>
+         
+         
+            <div class="Complete_PaymentRow" id="_ViewCreditCard" class="Hide">
+               <div class="Complete_PaymentItem1">
+                  Visa:
+               </div>
+               <div class="Complete_PaymentItem2">
+                  ************1557
+               </div>
+            </div>
+            <div class="Complete_PaymentRow Hide">
+               <div class="Complete_PaymentItem1">
+                  Expires:
+               </div>
+               <div class="Complete_PaymentItem2 Hide">
+                  8/2010
+               </div>
+            </div>
+         
+      </div>
+      <div class="Complete_InstructionsRegion">
+         <div class="Complete_InstructionsTitle">
+            <div class="Complete_InstructionsTitleText">Special Instruction:</div>
+         </div>
+         <div class="Complete_InstructionsRow">
+            <div class="Complete_InstructionsText">
+               
+            </div>
+         </div>
+      </div>
+      <div class="Complete_SummaryRegion">
+         <div class="Complete_SummaryTitle">
+            <div class="Complete_SummaryTitleText">Order summary:</div>
+         </div>
+         <div class="Complete_SummaryRow">
+            <div class="Complete_SummaryItem1">
+               Items:
+            </div>
+            <div class="Complete_SummaryItem2">
+               $40.24
+            </div>
+         </div>
+         <div class="Complete_SummaryRow">
+            <div class="Complete_SummaryItem1">
+               Shipping & Handling:
+            </div>
+            <div class="Complete_SummaryItem2">
+               $0.00
+            </div>
+         </div>
+         <div class="Complete_SummaryRow">
+            <div class="Complete_SummaryItem1">
+               Discounts:
+            </div>
+            <div class="Complete_SummaryItem2">
+               $0.00
+            </div>
+         </div>
+         <div class="Complete_SummaryDividerRow">
+            <div class="Complete_SummaryDividerItem1"></div>
+            <div class="Complete_SummaryDividerItem2"></div>
+         </div>
+         <div class="Complete_SummaryRow">
+            <div class="Complete_SummaryItem1">
+               Total Before Tax:
+            </div>
+            <div class="Complete_SummaryItem2">
+               $40.24
+            </div>
+         </div>
+         <div class="Complete_SummaryRow">
+            <div class="Complete_SummaryItem1">
+               Tax:
+            </div>
+            <div class="Complete_SummaryItem2">
+               $0.00
+            </div>
+         </div>
+         <div class="Complete_SummaryTotalPrice" align="right">
+            Order Total:
+            $40.24&nbsp (CAD)
+          </div>
+           <div id="ctl00__Content__Receipt__PriceDisclaimer" style="font-size: 9px; width: 300px; height: auto;">
+                Prices based upon exchange rates as of
+                7/14/2008
+                and 9:00PM EST. Due to currency changes the prices may not reflect the exact exchange rate at the time of transaction.
+         </div>
+      </div>
+   </div>
+</div>
+<div class="Complete_FooterBoxRegion1" align="center">
+   <div class="Complete_FooterBoxRegion2" align="left">
+      <div class="Complete_FooterBoxRegion3">
+         <div class="Complete_FooterBoxRegion4">
+            Please review the information below as it may contain important installation and registration information.
+         </div>
+      </div>
+      Thank you for your order from Stardock.  This email contains the serial<br />numbers (referred to as Registration Codes) for the products you<br />have ordered and a receipt of payment is attached.<br /><br />If you need to download the latest enhanced version or get your serial<br />number in the future, please visit http://www.stardock.com/support/.<br /><br />Customer Name: David Chase<br />Order Number: VTHN2CE9DBDC-0714081018<br /><br /><br />Products Ordered:         <br />=----------------------------------------------------------------------------=<br />Product Name  : ObjectDock Plus<br />User Name     : David Chase<br />Email         : dchase@hotmail.com<br />Serial Number : 2A80645D146941D39E895AD109C9<br />Download      : <a href="http://dl.stardock.com/activate/dl.aspx?m=1&v=1&a1=3D6D270A21AD9AE9F2C6D20E"> http://dl.stardock.com/activate/dl.aspx?m=1&v=1&a1=3D6D270A21AD9AE9F2C6D20E </a><br /><br />Product Name  : WindowBlinds 6<br />User Name     : David Chase<br />Email         : dchase@hotmail.com<br />Serial Number : F4E52-01C55-A0F55-EB165-71E70-26CCE<br />Download      : <a href="http://dl4.stardock.com/download.aspx?d1=T1jZsQzUmVJn8d6UQD3fYllON7hHxyXTOzPcnmtYp0wRmxagIxD3Vw%3d%3d"> http://dl4.stardock.com/download.aspx?d1=T1jZsQzUmVJn8d6UQD3fYllON7hHxyXTOzPcnmtYp0wRmxagIxD3Vw%3d%3d </a><br />=----------------------------------------------------------------------------=<br /><br /><br />Please print a hard copy of this information and store it in a safe place<br />as you may need it for future installations and or upgrades.<br /><br />If you have any problems or questions regarding this sales<br />transaction, simply contact our sales staff at sales@stardock.com.<br /><br />Regular product updates as well as additional products can be<br />found on our website at http://www.stardock.com .<br /><br />It is strongly recommended that you make a backup of all files <br />downloaded in case you need to reinstall the software at a later<br />date.  By making a backup now you will cut down on the support<br />burden of our staff, as well as ensuring your peace of mind.<br />Thank you.<br /><br />Be sure to check out our other products at http://www.stardock.com/order.asp !<br /><br />Important Contact Information:<br /><br />  Serial number lookup and latest enhanced version:<br />	http://www.stardock.com/support/  <br /> <br />  Sales information:<br />	sales@stardock.com<br /><br />  Technical Support information:<br />	Email: support@stardock.com<br />	Web: http://www.stardock.com/support<br /><br />  Stardock News Server:<br />	news://news.stardock.com<br /><br />  Mailing Address:<br />	Stardock Systems, Inc.<br />	15090 Beck Rd, Suite 300<br />	Plymouth, Michigan 48170<br />	USA
+   </div>
+</div>
+<!-- Google Code for purchase Conversion Page -->
+<script language="JavaScript" type="text/javascript">
+<!--
+var google_conversion_id = 1072582249;
+var google_conversion_language = "en_US";
+var google_conversion_format = "1";
+var google_conversion_color = "FFFFFF";
+if (40.24) {
+  var google_conversion_value =40.24;
+}
+var google_conversion_label = "purchase";
+//-->
+</script>
+<script language="JavaScript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+
+<img height=1 width=1 border=0 src="https://www.googleadservices.com/pagead/conversion/1072582249/imp.gif?value=19.95&label=purchase&script=0">
+
+</noscript>
+
+   
+
+   
+
+            
+            <div class="Body_SecurityRegion" align="center">
+               <div class="Body_SecurityRow" align="left">
+                  <div class="Body_SecurityItem1">
+                     <a target="_blank" href="https://www.scanalert.com/RatingVerify?ref=store.stardock.com">
+                        <img width="94" height="54" border="0" src="//images.scanalert.com/meter/store.stardock.com/13.gif"
+                           alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." oncontextmenu="alert('Copying Prohibited by Law - HACKER SAFE is a Trademark of ScanAlert'); return false;"></a>
+                  </div>
+                  <div class="Body_SecurityItem2" align="center">
+
+                     <script src="https://seal.verisign.com/getseal?host_name=store.stardock.com&size=M&use_flash=NO&use_transparent=NO&lang=en"></script>
+
+                     <br />
+                     <a href="http://www.verisign.com/ssl/ssl-information-center/" target="_blank" class="VeriSignSSL_Lnk">
+                        ABOUT SSL CERTIFICATES</a>
+                  </div>
+                  <div class="Body_SecurityItem3">
+                     You are now connected using a secure (SSL) connection and all information is transmitted
+                     in an encrypted form. You should see a small lock (Internet Explorer, Opera, Firefox)
+                     indicating that your browser is communicating securely with our web store.
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="Footer_Outter_Region">
+            <div class="Footer_Inner_Region">
+               <a href="/" class="Footer_Lnk">Featured Products</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+               <a href="/browse" class="Footer_Lnk">All Products</a>
+               &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/faq.aspx" class="Footer_Lnk">FAQ</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+               <a href="/policy.aspx" class="Footer_Lnk">Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a
+                  href="/contacts.aspx" class="Footer_Lnk">Contact Us</a>
+            </div>
+         </div>
+      </div>
+      
+
+<script src="https://ssl.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-191362-12";
+urchinTracker();
+urchinTracker("/track/6/checkout.aspx");
+urchinTracker("/trackProduct/6/checkout.aspx/ObjectDock Plus/ESD-SDS-W115");
+urchinTracker("/trackProduct/ObjectDock Plus/ESD-SDS-W115/6/checkout.aspx");
+urchinTracker("/trackProduct/6/checkout.aspx/WindowBlinds 6/ESD-SDS-W406");
+urchinTracker("/trackProduct/WindowBlinds 6/ESD-SDS-W406/6/checkout.aspx");
+</script>
+
+
+
+   
+
+<script type="text/javascript">
+<!--
+Sys.Application.initialize();
+// -->
+</script>
+</form>
+</body>
+</html>
